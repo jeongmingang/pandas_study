@@ -1,7 +1,7 @@
 import pandas as pd
 
 # HTML 파일 경로 or 웹 페이지 주소를 url 변수에 저장
-url ='./sample.html'
+url = './sample.html'
 
 # HTML 웹페이지의 표(table)를 가져와서 데이터프레임으로 변환
 tables = pd.read_html(url)
@@ -10,7 +10,7 @@ print("# 표(table)의 개수 확인")
 print(len(tables))
 print()
 
-print("# tables 리스트의 원소를 iteration하면서 각각 화면 출력")
+print("# tables 리스트의 원소를 iteration 하면서 각각 화면 출력")
 for i in range(len(tables)):
     print("tables[%s]" % i)
     print(tables[i])
