@@ -1,6 +1,6 @@
 import pandas as pd
 
-# 파일 경로(파이썬 파일과 같은 폴더)를 찾고, 변수 file_path에 저장
+# 파일 경로(파이썬 파일과 같은 폴더)를 찾고, 변수 file_path 에 저장
 file_path = './read_csv_sample.csv'
 
 print("# read_csv() 함수로 데이터프레임 변환. 변수 df1에 저장")
